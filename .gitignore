@@ -1,0 +1,4 @@
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+*.pyc
