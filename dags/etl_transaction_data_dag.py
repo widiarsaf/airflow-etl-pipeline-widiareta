@@ -5,10 +5,12 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from datetime import datetime
+from pendulum import timezone
 
 DATA_PATH = "/opt/airflow/data/input/"
 OUTPUT_PATH = "/opt/airflow/data/output/"
 
+local_tz = timezone("Asia/Jakarta")
 
 def load_csv_to_postgres():
     df_transaksi_bus = pd.read_csv(DATA_PATH + "dummy_transaksi_bus.csv")
@@ -191,8 +193,8 @@ def load_data(ti):
 
 with DAG(
     dag_id="etl_transaction_data_dag",
-    start_date=datetime(2024, 1, 1),
-    schedule_interval=None,
+    start_date=datetime(2025, 11, 1, tzinfo=local_tz),
+    schedule_interval="0 7 * * *",
     catchup=False,
     tags=["ETL", "extract"]
 ) as dag:
