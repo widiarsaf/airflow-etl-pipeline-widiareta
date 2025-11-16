@@ -105,7 +105,7 @@ To enable the ETL pipeline to communicate with the PostgreSQL database, you need
 
 - Navigate to Admin → Connections.
 
-- Click “+ Add Connection”.
+- Search for “postgres_default” connection.
 
 - Fill in the following details:
 
