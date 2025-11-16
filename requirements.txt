@@ -1,0 +1,8 @@
+apache-airflow==2.7.1
+apache-airflow-providers-postgres
+
+pandas
+pendulum
+
+psycopg2-binary
+SQLAlchemy
