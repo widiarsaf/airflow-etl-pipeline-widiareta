@@ -68,19 +68,37 @@ schedule_interval="0 7 * * *"
 ```
 
 ### 🐳 Running with Docker
-#### 1. Start Airflow
+#### 1. Clone the Repository
 ```
-docker-compose up --build -d
+git clone https://github.com/widiarsaf/airflow-etl-pipeline-widiareta.git
+cd airflow-etl-pipeline-widiareta
 ```
 
-#### 2. Access Airflow Web UI 
+#### 2. Setup and Start Airflow
+- Clean any old resources (optional but recommended)
+```
+docker compose down --volumes --remove-orphans
+```
+
+- Build and Initialize Airflow
+```
+docker compose build
+docker compose run airflow-init
+```
+
+- Start Airflow
+```
+docker-compose up -d
+```
+
+#### 3. Access Airflow Web UI 
 http://localhost:8080
 
 Login (default):
 - **Username:** admin  
 - **Password:** admin  
 
-#### 3. Setting Up PostgreSQL Connection in Airflow
+#### 4. Setting Up PostgreSQL Connection in Airflow
 To enable the ETL pipeline to communicate with the PostgreSQL database, you need to configure a connection in the Airflow UI. 
 
 - Open Airflow Web UI.
@@ -100,8 +118,15 @@ To enable the ETL pipeline to communicate with the PostgreSQL database, you need
 | **Login**     | `airflow`          |
 | **Password**  | `airflow`          |
 | **Port**      | `5432`             |
+| **Extra**     | `(leave completely empty)`    |
 
-- Click Save.
+- For connection setup, please remove `{}` in Extra column, leave completely empty. This is important step to make sure airflow can connect to postgres database.
+
+    - ✔️ Correct: (leave blank)
+    - ❌ Incorrect: {} or any JSON content
+![alt text](img-pg-conn.png)
+
+- Click ***Save*** button.
 
 📌 Note:
 
@@ -109,7 +134,9 @@ To enable the ETL pipeline to communicate with the PostgreSQL database, you need
 
 - The DAG expects the connection ID ```postgres_default```.
 
-#### 4. Start the Pipeline
+
+
+#### 5. Start the Pipeline
 ![alt text](img-start-etl-pipeline.png)
 
 Trigger the DAG using the Play (►) button in Airflow.
