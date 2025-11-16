@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
@@ -138,8 +139,54 @@ def transform_data(ti):
     print("Transforming and aggregating data completed")
 
 
-def load_function():
-    print("Loading data...")
+def load_data(ti):
+    # Pull transformed data
+    fact_transaction = pd.read_json(ti.xcom_pull(key="fact_transaction"))
+    agg_by_card = pd.read_json(ti.xcom_pull(key="agg_by_card"))
+    agg_by_tarif = pd.read_json(ti.xcom_pull(key="agg_by_tarif"))
+    agg_by_route = pd.read_json(ti.xcom_pull(key="agg_by_route"))
+
+    # Ensure folder exists
+    os.makedirs(OUTPUT_PATH, exist_ok=True)
+
+    # Save CSV output (local + container)
+    fact_transaction.to_csv(f"{OUTPUT_PATH}/fact_transaction.csv", index=False)
+    agg_by_card.to_csv(f"{OUTPUT_PATH}/report_by_card.csv", index=False)
+    agg_by_tarif.to_csv(f"{OUTPUT_PATH}/report_by_tarif.csv", index=False)
+    agg_by_route.to_csv(f"{OUTPUT_PATH}/report_by_route.csv", index=False)
+
+    print("CSV files saved to:", OUTPUT_PATH)
+
+    # Load into PostgreSQL
+    pg = PostgresHook(postgres_conn_id="postgres_default")
+    engine = pg.get_sqlalchemy_engine()
+
+    fact_transaction.to_sql(
+        "fact_transaction",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+    agg_by_card.to_sql(
+        "report_by_card",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+    agg_by_tarif.to_sql(
+        "report_by_tarif",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+    agg_by_route.to_sql(
+        "report_by_route",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+
+    print("Data loaded into PostgreSQL successfully.")
 
 
 with DAG(
@@ -178,7 +225,8 @@ with DAG(
     # Load Data
     load_data = PythonOperator(
         task_id="load_data",
-        python_callable=load_function
+        python_callable=load_data,
+        provide_context=True
     )
 
 

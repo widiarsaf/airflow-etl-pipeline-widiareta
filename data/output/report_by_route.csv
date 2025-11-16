@@ -1,0 +1,302 @@
+tanggal,route_code,route_name,gate_in_boo,pelanggan,amount
+1751328000000,B21,Blok M - Bundaran Senayan,False,1,35000
+1751328000000,C12,Cawang - Harmoni,True,2,40000
+1751328000000,D11,Depok - Dukuh Atas,False,3,57000
+1751328000000,D11,Depok - Dukuh Atas,True,1,20000
+1751328000000,F11,Fatmawati - GBK,False,1,3500
+1751328000000,F11,Fatmawati - GBK,True,2,20000
+1751328000000,K22,Kampung Melayu - Senen,False,1,20000
+1751328000000,L13,Lebak Bulus - Monas,False,2,37000
+1751328000000,L13,Lebak Bulus - Monas,True,5,74000
+1751328000000,M14,Manggarai - Blok M,False,2,35000
+1751414400000,B21,Blok M - Bundaran Senayan,False,2,7500
+1751414400000,B21,Blok M - Bundaran Senayan,True,1,20000
+1751414400000,C12,Cawang - Harmoni,False,2,22000
+1751414400000,D11,Depok - Dukuh Atas,False,2,23500
+1751414400000,F11,Fatmawati - GBK,False,1,20000
+1751414400000,K22,Kampung Melayu - Senen,True,1,2000
+1751414400000,L13,Lebak Bulus - Monas,False,1,20000
+1751414400000,L13,Lebak Bulus - Monas,True,1,35000
+1751414400000,M14,Manggarai - Blok M,False,3,90000
+1751414400000,M14,Manggarai - Blok M,True,1,35000
+1751500800000,B21,Blok M - Bundaran Senayan,False,1,35000
+1751500800000,B21,Blok M - Bundaran Senayan,True,2,4000
+1751500800000,C12,Cawang - Harmoni,False,2,3500
+1751500800000,C12,Cawang - Harmoni,True,4,4000
+1751500800000,D11,Depok - Dukuh Atas,False,1,2000
+1751500800000,D11,Depok - Dukuh Atas,True,3,37000
+1751500800000,F11,Fatmawati - GBK,False,1,35000
+1751500800000,M14,Manggarai - Blok M,False,1,3500
+1751587200000,B21,Blok M - Bundaran Senayan,True,2,40000
+1751587200000,C12,Cawang - Harmoni,False,3,73500
+1751587200000,F11,Fatmawati - GBK,False,1,0
+1751587200000,F11,Fatmawati - GBK,True,1,20000
+1751587200000,K22,Kampung Melayu - Senen,False,3,58500
+1751587200000,L13,Lebak Bulus - Monas,True,1,0
+1751587200000,M14,Manggarai - Blok M,True,2,40000
+1751673600000,B21,Blok M - Bundaran Senayan,True,1,3500
+1751673600000,D11,Depok - Dukuh Atas,False,2,55000
+1751673600000,F11,Fatmawati - GBK,False,2,20000
+1751673600000,F11,Fatmawati - GBK,True,1,3500
+1751673600000,K22,Kampung Melayu - Senen,False,2,37000
+1751673600000,K22,Kampung Melayu - Senen,True,1,2000
+1751673600000,L13,Lebak Bulus - Monas,False,2,22000
+1751673600000,L13,Lebak Bulus - Monas,True,2,70000
+1751673600000,M14,Manggarai - Blok M,True,0,20000
+1751760000000,B21,Blok M - Bundaran Senayan,False,1,20000
+1751760000000,B21,Blok M - Bundaran Senayan,True,1,3500
+1751760000000,C12,Cawang - Harmoni,True,2,35000
+1751760000000,D11,Depok - Dukuh Atas,True,2,23500
+1751760000000,F11,Fatmawati - GBK,True,1,35000
+1751760000000,K22,Kampung Melayu - Senen,False,1,0
+1751760000000,L13,Lebak Bulus - Monas,False,5,112000
+1751760000000,L13,Lebak Bulus - Monas,True,3,22000
+1751760000000,M14,Manggarai - Blok M,False,2,37000
+1751760000000,M14,Manggarai - Blok M,True,1,2000
+1751846400000,B21,Blok M - Bundaran Senayan,False,2,35000
+1751846400000,B21,Blok M - Bundaran Senayan,True,2,5500
+1751846400000,C12,Cawang - Harmoni,True,1,2000
+1751846400000,D11,Depok - Dukuh Atas,False,2,35000
+1751846400000,F11,Fatmawati - GBK,False,1,55000
+1751846400000,K22,Kampung Melayu - Senen,False,1,2000
+1751846400000,L13,Lebak Bulus - Monas,False,1,35000
+1751846400000,L13,Lebak Bulus - Monas,True,2,55000
+1751846400000,M14,Manggarai - Blok M,False,2,25500
+1751846400000,M14,Manggarai - Blok M,True,2,23500
+1751932800000,B21,Blok M - Bundaran Senayan,False,3,23500
+1751932800000,B21,Blok M - Bundaran Senayan,True,2,22000
+1751932800000,C12,Cawang - Harmoni,True,2,55000
+1751932800000,D11,Depok - Dukuh Atas,False,1,35000
+1751932800000,D11,Depok - Dukuh Atas,True,1,2000
+1751932800000,K22,Kampung Melayu - Senen,True,1,20000
+1751932800000,L13,Lebak Bulus - Monas,False,3,5500
+1751932800000,M14,Manggarai - Blok M,False,1,3500
+1752019200000,B21,Blok M - Bundaran Senayan,False,3,37000
+1752019200000,C12,Cawang - Harmoni,False,1,35000
+1752019200000,C12,Cawang - Harmoni,True,2,22000
+1752019200000,D11,Depok - Dukuh Atas,False,6,34000
+1752019200000,D11,Depok - Dukuh Atas,True,2,2000
+1752019200000,F11,Fatmawati - GBK,False,1,20000
+1752019200000,F11,Fatmawati - GBK,True,2,37000
+1752019200000,K22,Kampung Melayu - Senen,False,1,2000
+1752019200000,L13,Lebak Bulus - Monas,False,2,4000
+1752019200000,L13,Lebak Bulus - Monas,True,1,3500
+1752019200000,M14,Manggarai - Blok M,True,2,40000
+1752105600000,B21,Blok M - Bundaran Senayan,False,3,75000
+1752105600000,C12,Cawang - Harmoni,False,1,0
+1752105600000,F11,Fatmawati - GBK,False,1,23500
+1752105600000,F11,Fatmawati - GBK,True,3,90000
+1752105600000,L13,Lebak Bulus - Monas,False,1,3500
+1752105600000,L13,Lebak Bulus - Monas,True,3,7500
+1752105600000,M14,Manggarai - Blok M,True,1,3500
+1752192000000,B21,Blok M - Bundaran Senayan,False,3,38500
+1752192000000,B21,Blok M - Bundaran Senayan,True,1,2000
+1752192000000,D11,Depok - Dukuh Atas,False,2,22000
+1752192000000,F11,Fatmawati - GBK,False,2,23500
+1752192000000,F11,Fatmawati - GBK,True,1,3500
+1752192000000,K22,Kampung Melayu - Senen,True,3,6000
+1752192000000,L13,Lebak Bulus - Monas,False,3,35000
+1752192000000,L13,Lebak Bulus - Monas,True,1,35000
+1752192000000,M14,Manggarai - Blok M,False,1,20000
+1752192000000,M14,Manggarai - Blok M,True,1,20000
+1752278400000,B21,Blok M - Bundaran Senayan,False,2,38500
+1752278400000,C12,Cawang - Harmoni,True,1,20000
+1752278400000,D11,Depok - Dukuh Atas,False,3,72000
+1752278400000,D11,Depok - Dukuh Atas,True,2,55000
+1752278400000,F11,Fatmawati - GBK,False,1,3500
+1752278400000,F11,Fatmawati - GBK,True,1,20000
+1752278400000,K22,Kampung Melayu - Senen,True,1,20000
+1752278400000,L13,Lebak Bulus - Monas,False,1,0
+1752278400000,L13,Lebak Bulus - Monas,True,0,0
+1752278400000,M14,Manggarai - Blok M,False,1,3500
+1752278400000,M14,Manggarai - Blok M,True,1,3500
+1752364800000,B21,Blok M - Bundaran Senayan,True,2,37000
+1752364800000,C12,Cawang - Harmoni,False,1,4000
+1752364800000,C12,Cawang - Harmoni,True,1,35000
+1752364800000,D11,Depok - Dukuh Atas,False,1,20000
+1752364800000,D11,Depok - Dukuh Atas,True,1,2000
+1752364800000,F11,Fatmawati - GBK,False,2,37000
+1752364800000,F11,Fatmawati - GBK,True,1,37000
+1752364800000,K22,Kampung Melayu - Senen,True,2,55000
+1752364800000,L13,Lebak Bulus - Monas,False,1,2000
+1752364800000,L13,Lebak Bulus - Monas,True,1,2000
+1752364800000,M14,Manggarai - Blok M,False,2,7000
+1752364800000,M14,Manggarai - Blok M,True,4,57000
+1752451200000,B21,Blok M - Bundaran Senayan,False,1,3500
+1752451200000,B21,Blok M - Bundaran Senayan,True,1,35000
+1752451200000,C12,Cawang - Harmoni,False,1,20000
+1752451200000,D11,Depok - Dukuh Atas,False,1,2000
+1752451200000,D11,Depok - Dukuh Atas,True,2,7000
+1752451200000,F11,Fatmawati - GBK,False,1,20000
+1752451200000,F11,Fatmawati - GBK,True,2,23500
+1752451200000,K22,Kampung Melayu - Senen,True,4,75000
+1752451200000,M14,Manggarai - Blok M,False,1,3500
+1752451200000,M14,Manggarai - Blok M,True,1,5500
+1752537600000,B21,Blok M - Bundaran Senayan,False,2,40000
+1752537600000,B21,Blok M - Bundaran Senayan,True,1,0
+1752537600000,C12,Cawang - Harmoni,False,1,35000
+1752537600000,C12,Cawang - Harmoni,True,2,20000
+1752537600000,F11,Fatmawati - GBK,False,1,3500
+1752537600000,F11,Fatmawati - GBK,True,1,2000
+1752537600000,K22,Kampung Melayu - Senen,False,1,2000
+1752537600000,K22,Kampung Melayu - Senen,True,2,7000
+1752537600000,L13,Lebak Bulus - Monas,True,2,40000
+1752537600000,M14,Manggarai - Blok M,False,1,35000
+1752624000000,B21,Blok M - Bundaran Senayan,True,1,35000
+1752624000000,C12,Cawang - Harmoni,True,2,5500
+1752624000000,D11,Depok - Dukuh Atas,True,2,35000
+1752624000000,F11,Fatmawati - GBK,True,1,35000
+1752624000000,L13,Lebak Bulus - Monas,False,1,0
+1752624000000,M14,Manggarai - Blok M,False,1,20000
+1752624000000,M14,Manggarai - Blok M,True,2,38500
+1752710400000,B21,Blok M - Bundaran Senayan,False,2,23500
+1752710400000,C12,Cawang - Harmoni,False,1,35000
+1752710400000,C12,Cawang - Harmoni,True,1,2000
+1752710400000,D11,Depok - Dukuh Atas,False,1,20000
+1752710400000,D11,Depok - Dukuh Atas,True,2,0
+1752710400000,F11,Fatmawati - GBK,False,1,20000
+1752710400000,F11,Fatmawati - GBK,True,2,37000
+1752710400000,K22,Kampung Melayu - Senen,False,1,37000
+1752710400000,K22,Kampung Melayu - Senen,True,1,20000
+1752710400000,M14,Manggarai - Blok M,True,2,23500
+1752796800000,B21,Blok M - Bundaran Senayan,False,2,3500
+1752796800000,B21,Blok M - Bundaran Senayan,True,1,20000
+1752796800000,C12,Cawang - Harmoni,False,3,25500
+1752796800000,F11,Fatmawati - GBK,True,3,58500
+1752796800000,K22,Kampung Melayu - Senen,False,1,2000
+1752796800000,K22,Kampung Melayu - Senen,True,1,3500
+1752796800000,M14,Manggarai - Blok M,False,1,35000
+1752883200000,B21,Blok M - Bundaran Senayan,False,2,70000
+1752883200000,C12,Cawang - Harmoni,False,2,22000
+1752883200000,C12,Cawang - Harmoni,True,2,37000
+1752883200000,F11,Fatmawati - GBK,False,0,35000
+1752883200000,K22,Kampung Melayu - Senen,False,1,0
+1752883200000,L13,Lebak Bulus - Monas,True,1,0
+1752883200000,M14,Manggarai - Blok M,False,3,2000
+1752883200000,M14,Manggarai - Blok M,True,1,2000
+1752969600000,B21,Blok M - Bundaran Senayan,False,1,20000
+1752969600000,C12,Cawang - Harmoni,False,1,22000
+1752969600000,C12,Cawang - Harmoni,True,2,4000
+1752969600000,D11,Depok - Dukuh Atas,False,3,40500
+1752969600000,D11,Depok - Dukuh Atas,True,3,25500
+1752969600000,F11,Fatmawati - GBK,False,1,23500
+1752969600000,F11,Fatmawati - GBK,True,3,27000
+1752969600000,K22,Kampung Melayu - Senen,False,3,57000
+1752969600000,L13,Lebak Bulus - Monas,False,0,20000
+1752969600000,M14,Manggarai - Blok M,False,1,2000
+1752969600000,M14,Manggarai - Blok M,True,2,37000
+1753056000000,B21,Blok M - Bundaran Senayan,True,1,20000
+1753056000000,C12,Cawang - Harmoni,False,3,72000
+1753056000000,C12,Cawang - Harmoni,True,2,37000
+1753056000000,D11,Depok - Dukuh Atas,False,3,40000
+1753056000000,D11,Depok - Dukuh Atas,True,1,0
+1753056000000,F11,Fatmawati - GBK,False,3,43500
+1753056000000,K22,Kampung Melayu - Senen,False,2,40000
+1753056000000,K22,Kampung Melayu - Senen,True,1,2000
+1753056000000,L13,Lebak Bulus - Monas,False,1,35000
+1753056000000,L13,Lebak Bulus - Monas,True,1,2000
+1753056000000,M14,Manggarai - Blok M,False,1,35000
+1753056000000,M14,Manggarai - Blok M,True,2,4000
+1753142400000,B21,Blok M - Bundaran Senayan,False,1,0
+1753142400000,B21,Blok M - Bundaran Senayan,True,1,35000
+1753142400000,C12,Cawang - Harmoni,True,2,55000
+1753142400000,D11,Depok - Dukuh Atas,True,1,35000
+1753142400000,F11,Fatmawati - GBK,False,1,20000
+1753142400000,F11,Fatmawati - GBK,True,1,3500
+1753142400000,L13,Lebak Bulus - Monas,False,1,20000
+1753142400000,L13,Lebak Bulus - Monas,True,1,2000
+1753142400000,M14,Manggarai - Blok M,False,1,2000
+1753142400000,M14,Manggarai - Blok M,True,1,2000
+1753228800000,B21,Blok M - Bundaran Senayan,True,1,3500
+1753228800000,C12,Cawang - Harmoni,False,1,3500
+1753228800000,C12,Cawang - Harmoni,True,1,20000
+1753228800000,F11,Fatmawati - GBK,False,1,20000
+1753228800000,F11,Fatmawati - GBK,True,1,35000
+1753228800000,K22,Kampung Melayu - Senen,False,1,35000
+1753228800000,K22,Kampung Melayu - Senen,True,2,23500
+1753228800000,L13,Lebak Bulus - Monas,False,2,23500
+1753228800000,L13,Lebak Bulus - Monas,True,2,38500
+1753315200000,B21,Blok M - Bundaran Senayan,False,2,4000
+1753315200000,B21,Blok M - Bundaran Senayan,True,3,25500
+1753315200000,C12,Cawang - Harmoni,False,1,3500
+1753315200000,C12,Cawang - Harmoni,True,2,55000
+1753315200000,D11,Depok - Dukuh Atas,True,2,20000
+1753315200000,F11,Fatmawati - GBK,True,2,20000
+1753315200000,K22,Kampung Melayu - Senen,True,1,35000
+1753315200000,L13,Lebak Bulus - Monas,True,2,38500
+1753315200000,M14,Manggarai - Blok M,False,3,58500
+1753315200000,M14,Manggarai - Blok M,True,2,7000
+1753401600000,B21,Blok M - Bundaran Senayan,False,3,3500
+1753401600000,C12,Cawang - Harmoni,False,1,20000
+1753401600000,C12,Cawang - Harmoni,True,2,22000
+1753401600000,D11,Depok - Dukuh Atas,False,1,35000
+1753401600000,D11,Depok - Dukuh Atas,True,1,2000
+1753401600000,F11,Fatmawati - GBK,False,4,37000
+1753401600000,K22,Kampung Melayu - Senen,False,2,40000
+1753401600000,K22,Kampung Melayu - Senen,True,2,22000
+1753401600000,L13,Lebak Bulus - Monas,True,1,3500
+1753401600000,M14,Manggarai - Blok M,False,1,0
+1753401600000,M14,Manggarai - Blok M,True,2,20000
+1753488000000,B21,Blok M - Bundaran Senayan,False,2,38500
+1753488000000,C12,Cawang - Harmoni,False,3,75000
+1753488000000,C12,Cawang - Harmoni,True,1,35000
+1753488000000,D11,Depok - Dukuh Atas,False,1,38500
+1753488000000,F11,Fatmawati - GBK,False,1,3500
+1753488000000,F11,Fatmawati - GBK,True,1,2000
+1753488000000,K22,Kampung Melayu - Senen,False,1,20000
+1753488000000,K22,Kampung Melayu - Senen,True,4,93500
+1753488000000,L13,Lebak Bulus - Monas,False,1,20000
+1753488000000,L13,Lebak Bulus - Monas,True,2,70000
+1753574400000,B21,Blok M - Bundaran Senayan,False,4,11000
+1753574400000,B21,Blok M - Bundaran Senayan,True,1,20000
+1753574400000,C12,Cawang - Harmoni,False,1,35000
+1753574400000,C12,Cawang - Harmoni,True,0,20000
+1753574400000,D11,Depok - Dukuh Atas,False,1,3500
+1753574400000,F11,Fatmawati - GBK,False,0,3500
+1753574400000,K22,Kampung Melayu - Senen,False,1,2000
+1753574400000,K22,Kampung Melayu - Senen,True,1,20000
+1753574400000,L13,Lebak Bulus - Monas,True,1,37000
+1753660800000,B21,Blok M - Bundaran Senayan,True,4,62000
+1753660800000,C12,Cawang - Harmoni,False,2,43500
+1753660800000,C12,Cawang - Harmoni,True,4,77000
+1753660800000,D11,Depok - Dukuh Atas,False,0,20000
+1753660800000,F11,Fatmawati - GBK,False,1,20000
+1753660800000,K22,Kampung Melayu - Senen,False,1,35000
+1753660800000,L13,Lebak Bulus - Monas,False,1,35000
+1753660800000,L13,Lebak Bulus - Monas,True,2,55000
+1753747200000,B21,Blok M - Bundaran Senayan,False,2,40500
+1753747200000,B21,Blok M - Bundaran Senayan,True,3,55000
+1753747200000,C12,Cawang - Harmoni,False,1,2000
+1753747200000,C12,Cawang - Harmoni,True,3,37000
+1753747200000,D11,Depok - Dukuh Atas,False,1,23500
+1753747200000,F11,Fatmawati - GBK,True,1,20000
+1753747200000,K22,Kampung Melayu - Senen,False,3,60000
+1753747200000,K22,Kampung Melayu - Senen,True,2,5500
+1753747200000,L13,Lebak Bulus - Monas,True,3,23500
+1753747200000,M14,Manggarai - Blok M,False,1,35000
+1753747200000,M14,Manggarai - Blok M,True,1,2000
+1753833600000,B21,Blok M - Bundaran Senayan,False,1,0
+1753833600000,B21,Blok M - Bundaran Senayan,True,1,20000
+1753833600000,C12,Cawang - Harmoni,False,1,20000
+1753833600000,C12,Cawang - Harmoni,True,3,42000
+1753833600000,D11,Depok - Dukuh Atas,False,1,35000
+1753833600000,D11,Depok - Dukuh Atas,True,1,35000
+1753833600000,F11,Fatmawati - GBK,False,1,20000
+1753833600000,F11,Fatmawati - GBK,True,1,0
+1753833600000,K22,Kampung Melayu - Senen,False,1,2000
+1753833600000,L13,Lebak Bulus - Monas,False,3,58500
+1753833600000,L13,Lebak Bulus - Monas,True,4,41000
+1753833600000,M14,Manggarai - Blok M,False,1,35000
+1753833600000,M14,Manggarai - Blok M,True,0,20000
+1753920000000,B21,Blok M - Bundaran Senayan,False,1,3500
+1753920000000,C12,Cawang - Harmoni,False,2,37000
+1753920000000,C12,Cawang - Harmoni,True,2,2000
+1753920000000,D11,Depok - Dukuh Atas,True,1,3500
+1753920000000,F11,Fatmawati - GBK,False,1,20000
+1753920000000,F11,Fatmawati - GBK,True,2,37000
+1753920000000,K22,Kampung Melayu - Senen,False,3,5500
+1753920000000,K22,Kampung Melayu - Senen,True,1,0
+1753920000000,L13,Lebak Bulus - Monas,False,2,38500
+1753920000000,L13,Lebak Bulus - Monas,True,1,35000
+1753920000000,M14,Manggarai - Blok M,False,1,3500
+1753920000000,M14,Manggarai - Blok M,True,1,35000
