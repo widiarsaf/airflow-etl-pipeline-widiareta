@@ -31,6 +31,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./data/input:/opt/airflow/data/input
       - ./data/output:/opt/airflow/data/output
+      - ./scripts:/opt/airflow/scripts
 
   scheduler:
     image: apache/airflow:2.7.1
@@ -45,6 +46,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./data/input:/opt/airflow/data/input
       - ./data/output:/opt/airflow/data/output
+      - ./scripts:/opt/airflow/scripts
     command: scheduler
 
   webserver:
@@ -60,6 +62,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./data/input:/opt/airflow/data/input
       - ./data/output:/opt/airflow/data/output
+      - ./scripts:/opt/airflow/scripts
     ports:
       - "8080:8080"
     command: webserver
